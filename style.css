@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lora&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+  
+}
+
+.sub{
+    margin-right: 42%;
+}
+
+
+li a {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(154, 147, 147);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgb(255, 255, 255);
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display:inline-block ;
+    padding: 0px 3px;
+}
+
+.links li a{
+    transition: all 0.3s;   
+}
+
+.links li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 900;
+    color: rgb(121, 115, 115);
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    display: block;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0;
+    padding: 0 20px;
+    
+    
+}
+
+section.module p {
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+    
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content {
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+section.module.parallax {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    
+}
+
+
+
+section.module.parallax-1 {
+    background-image: url(pagi/imag3.jpeg);
+    background-size: 50%;
+
+   
+}
+
+section.module.parallax-2 {
+    background-image: url(pagi/img2.JPG);
+    background-size: 80%;
+
+}
+
+section.module.parallax-3 {
+    background-image: url(pagi/img5.jpeg);
+    background-size: 50% ;
+    
+
+}
+
+section.module.parallax-4 {
+    background-image: url(pagi/img4.jpeg);
+    background-size: 100%;
+    
+}
+
+section.module.parallax-5 {
+    background-image: url(pagi/imag1.jpg);
+    background-size: 100%;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    background-color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+

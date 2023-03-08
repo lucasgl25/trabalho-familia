@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lora&display=swap');
+
+body{
+    font-size: 1.3rem;  /* tamanho fonte*/
+    font-family:'Barlow', sans-serif; /* tipo de fonte*/
+    background: rgba(255, 255, 255, 0.872); /*cor fundo*/
+    margin: 0;   /*usada para criar espaço ao redor dos elementos*/
+    padding: 0;  /* gera espaço na volta*/
+
+   
+}
+
+.main-header{   /* fundo dos recursos humanos*/
+    height: 55vh;   /*altura*/
+    padding: 2rem;  /*espaço na volta*/
+    display: flex;      /*itens flexiveis*/
+    flex-direction: column;   /*deixa em colunas*/
+    align-items: center;           /*deixa os itens centralizados*/
+    justify-content: center;        /*centraliza*/
+    text-align: center;                       /*texto centralizado*/
+    background:linear-gradient(to left, rgb(229, 229, 231) 10%, rgb(232, 232, 229)80%, rgb(255, 255, 255) 90%) ; /*gradiente começando pela esquerda*/
+    margin-bottom: 100px;   /*margem inferior*/
+}
+
+
+.main-header h1{ /*h1 Recursos humanos*/
+    color: rgb(20, 1, 1);   /*cor texto*/
+    font-size: 4rem;               /*tamanho da fonte*/
+    margin-bottom: 50px;  
+    line-height: 1.2rem;     /*define altura da linha*/
+   
+}
+
+
+.main-header p{ /*texto abaixo do recursos humanos*/
+    font-size: 25px;
+    text-align: center;        /*texto centralizado*/
+   
+
+    
+   
+}
+.container{ /* fora das imagens */
+    max-width: 1100px;  /*tamanho da caixa cinza*/
+    margin: auto;  /*direção das caixas*/
+    overflow: 0;             /*adc uma barra caso conteudo seja mt grande*/
+    padding: 0 2rem;
+ 
+ 
+   
+}
+img{   /*imagens*/
+    
+    width: 500px;            /*largura*/
+    border-radius: 20px;     /*borda arredondada*/
+}
+
+
+.card{         /*altera a caixinha*/
+    display: grid;  /*altera elemento dento da caixa*/
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;  /*define o tamanho do intervalo entre as linhas e colunas*/
+    background:  rgb(229, 229, 231);
+    margin-bottom: 2rem;
+    border: 5px solid rgb(229, 229, 231);
+    border-radius: 25px;
+}
+
+
+.card h3{  /*titulo da caixa*/
+    margin-bottom: 0rem;
+    
+}
+.card img{  /* imagem da caixa*/
+    height: 400px;    /*altura*/
+}
+.card>div{   /*altera metade da caixa*/
+    padding: 2rem;
+    
+}
+
+footer h3{   /*rodape*/
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    
+    
+}
+
+a{    /*edita o pagina inicial li*/
+ 
+    text-decoration: none;  /*tira linha do link*/
+    font-family: 'Barlow', sans-serif;;
+    color: rgb(189, 185, 185);
+    font-size: 20px;
+   
+    
+}
+
+.nomes{  /*nome de cada um*/
+    text-align: center;  /*centraliza*/
+   
+}
+
+.logo {  /*a logo da esquerda*/
+     
+    width: 25px; 
+    height: 30px;
+   /*altura e largura*/
+}
+
+
+.main-header p span{ /*edita a frase conheça..*/
+    
+    color: rgb(122, 122, 120);
+}
+
+.texto{  /*texto sobre cada um*/
+   margin-top: 60px;
+   text-align: center;
+}
+
+
+
+.links li{   /*edita li*/
+    display:inline-block ;  /*deixa td mundo numa linha*/
+    padding: 5px 3px;  /*espaçament entre  eles*/
+   
+}
+
+.links li a{  /*edita li tmb*/
+    transition: all 0.3s;  /*tempo da transiçao de cor */ 
+}
+
+.links li a:hover{
+    color: rgb(0, 0, 0); /*edita a cor que ele transiciona*/
+}
+
+
+li a { 
+    
+    margin: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(154, 147, 147);
+    
+}
+
+
+
